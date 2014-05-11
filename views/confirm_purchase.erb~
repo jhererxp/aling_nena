@@ -37,19 +37,21 @@
 	<div class = "admin">
       <p align = "center"><FONT face="desdemona" size="7" color = "brown"><i>Thank you for shopping with us!</i></FONT></p>
 
+		
 	<table class="table table-striped">
           <thead>
             <tr>
                 <td>Merchandise</td>
                 <td>Price</td>
-                <td>Quantity</td>
+                <td>Quantity Purchased</td>
 		<td>Total</td>
 		<td>Amount handed</td>
 		<td>Your Change</td>
-	
+		
             </tr>
           </thead>
           <tbody>
+          <% @products.each do |product.id| %>
             <tr>
                 <td><%= product.name %></td>
                 <td><%= product.price %></td>
@@ -59,8 +61,8 @@
 		<td><%= change_amount %></td>
             </tr>
           </tbody>
+          <% end %>
         </table>
-		
 		
         <a href="/" class="btn btn-default">Return to Home Page</a>
 
