@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>All Products : Aling Nena </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="/css/admin.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Aling Nena</a>
+		  <a class ="navbar-text" href = "about">About </a>
+		  <a class ="navbar-text" href = "products">Products </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+	<p style="font-size:100px"><b><font color="brown">ALING NENA'S STORE</font></b></p>
+	<div align="center">
+	<img src="aling.jpg" width="350" height="600"/>
+	<p><font size = "5"></br>Before "Aling Nena's Store" opened, she already had a smaller retail business that catered to her neighborhood's daily necessities. She became a widow on an early age. Because of this, she had to take care of her one and only daughter named Nene on her own. Using her hardwork and perseverance, she managed to let Nene graduate college. After Nene graduated, she was able to land a job that offered a decent salary. Nene, as a sign of graditude, gave her loving mother a sari-sari store to keep her busy and happy at the same time. Aling Nena's store became famous all through out their neighborhood and everyone bought all their daily needs from her. Everyone knows the story of how she managed to take care of her daughter on her own despite of her unfortunate condition.</font></p>
+	</div>
+ 
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -39,6 +39,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  json (= 1.8.1)
   rake
   require_all
   sinatra

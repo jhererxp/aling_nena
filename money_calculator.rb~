@@ -38,7 +38,6 @@ attr_accessor :ones, :fives, :tens, :twenties, :fifties, :hundreds, :five_hundre
 		@change_amount = change_amount(@total_payment, @cost)
 		@thousands_amount = (@change_amount/1000).to_i
 		@change_amount_less_thousand = change_amount(@change_amount, @thousands_amount*1000)
-		@five_hundreds_amount = ((@change_amount_less_thousand%1000)/500).to_i
 		@change_amount_less_five_hundred = change_amount(@change_amount_less_thousand, @five_hundreds_amount*500)	
 		@hundreds_amount = ((@change_amount_less_five_hundred%500)/100).to_i
 		@change_amount_less_hundred = change_amount(@change_amount_less_five_hundred, @hundreds_amount*100)	
