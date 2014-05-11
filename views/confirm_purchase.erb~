@@ -35,16 +35,31 @@
 
     <div class="container">
 	<div class = "admin">
-      <p align = "center"><FONT face="desdemona" size="7"><i>Thank you for shopping with us!</i></FONT></p>
+      <p align = "center"><FONT face="desdemona" size="7" color = "brown"><i>Thank you for shopping with us!</i></FONT></p>
 
-		<p> Merchandise: <%=@product.name %> @ ₱<%=@product.price %></p>
-		<p> Quantity Purchased: <%=@quantity %></p>
-		<p> Total: <%=@cost %> </p>
-		<p> Amount Paid: <%=@money_calc.total_payment %></p>
-		<p> Your Change: <%=@change_amount %></p>
-		<br/>
-		<br/>
-		<br/>
+	<table class="table table-striped">
+          <thead>
+            <tr>
+                <td>Merchandise</td>
+                <td>Price</td>
+                <td>Quantity</td>
+		<td>Total</td>
+		<td>Amount handed</td>
+		<td>Your Change</td>
+	
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td><%= product.name %></td>
+                <td><%= product.price %></td>
+                <td><%= quantity %></td>
+		<td><%= cost %></td>
+		<td><%= money_calc.total_payment %></td>
+		<td><%= change_amount %></td>
+            </tr>
+          </tbody>
+        </table>
 		
 		
         <a href="/" class="btn btn-default">Return to Home Page</a>

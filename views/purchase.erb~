@@ -28,8 +28,8 @@
       <div class="container">
         <div class="navbar-header">
 		     <a class="navbar-brand" href="/">Aling Nena</a>
-		  <a class ="navbar-text" href = "about">About </a>
-		  <a class ="navbar-text" href = "products">Products</a>
+		  <a class ="navbar-text" href = "/about">About </a>
+		  <a class ="navbar-text" href = "/products">Products</a>
         </div>
       </div>
     </div>
@@ -38,11 +38,13 @@
     <div class="container">
 
       <div class="admin" align= "center">
-		Merchandise: <%= @product.name %> @ ₱<%= @product.price %> each
 		<form method = "POST" action = "/confirm_purchase/<%= @product.id %>">
-		Input Quantity: <input type = "text" name = quantity></input>
+		<h1>Merchandise: <%= @product.name %> <font color = "red">@ </font>₱<%= @product.price %> each</h1>
 		<br/>
-		INPUT PAYMENT DENOMINATIONS:
+		<br/>	
+		<h2>Input Quantity: <input type = "text" name = quantity></input></h2>
+		<br/>
+		<h3>INPUT PAYMENT DENOMINATIONS:</h3>
 		<br/>
 		Ones:
 		<input type = "number" name = ones>  </input>
